@@ -27,7 +27,7 @@ alert_unit = "GB"
 interval = 20
 warning = 20.0
 alert = 10.0
-format = " $icon root: $available.eng(w:2) "
+format = " root: $available.eng(w:2) "
 
 [[block]]
 block = "disk_space"
@@ -37,7 +37,7 @@ alert_unit = "GB"
 interval = 20
 warning = 20.0
 alert = 10.0
-format = " $icon home: $available.eng(w:2) "
+format = " home: $available.eng(w:2) "
 
 [[block]]
 block = "disk_space"
@@ -47,7 +47,7 @@ alert_unit = "GB"
 interval = 20
 warning = 20.0
 alert = 10.0
-format = " $icon backup: $available.eng(w:2) "
+format = " backup: $available.eng(w:2) "
 
 [[block]]
 block = "memory"
@@ -88,7 +88,14 @@ cmd = "pavucontrol"
 [[block]]
 block = "bluetooth"
 mac = "80:C3:BA:29:FE:97"
-disconnected_format = " $icon NO DEVICE"
-format = " $icon MOMENTUM4" 
+disconneted_format = "x"
+format = " $icon MOMENTUM4"
+
+[[block]]
+block = "bluetooth"
+mac = "80:C3:BA:2F:6F:AB"
+disconnected_format = "x"
+format = " $icon MOMENTUM TW3" 
+
 
 
