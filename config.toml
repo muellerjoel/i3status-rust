@@ -87,13 +87,13 @@ cmd = "pavucontrol"
 
 [[block]]
 block = "bluetooth"
-mac = "80:C3:BA:29:FE:97"
-disconneted_format = "x"
+mac = "80:C3:BA:4D:8F:87"
+disconnected_format = "x"
 format = " $icon MOMENTUM4"
 
 [[block]]
 block = "bluetooth"
-mac = "80:C3:BA:2F:6F:AB"
+mac = "80:C3:BA:2F:2A:C6"
 disconnected_format = "x"
 format = " $icon MOMENTUM TW3" 
 
